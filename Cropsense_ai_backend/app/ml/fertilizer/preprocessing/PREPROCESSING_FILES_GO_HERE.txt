@@ -1,0 +1,20 @@
+================================================================
+FERTILIZER RECOMMENDATION — PREPROCESSING FILES
+================================================================
+
+Place the following preprocessing artifact files in THIS directory:
+
+1. fertilizer_feature_config.json
+   → Feature configuration used during training.
+
+2. fertilizer_label_encoder.joblib
+   → Fitted scikit-learn LabelEncoder for decoding predictions.
+
+3. fertilizer_preprocessor.joblib
+   → Fitted scikit-learn preprocessing pipeline (e.g., ColumnTransformer).
+
+Source: Extract from the provided ZIP archive.
+
+DO NOT rename these files.
+DO NOT modify these files.
+================================================================

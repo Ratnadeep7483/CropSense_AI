@@ -1,0 +1,2660 @@
+[
+  {
+    "state": "Andaman and Nicobar Islands",
+    "districts": [
+      {
+        "name": "NICOBARS",
+        "modelSupported": true
+      },
+      {
+        "name": "NORTH AND MIDDLE ANDAMAN",
+        "modelSupported": true
+      },
+      {
+        "name": "SOUTH ANDAMANS",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "districts": [
+      {
+        "name": "ANANTAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHITTOOR",
+        "modelSupported": true
+      },
+      {
+        "name": "EAST GODAVARI",
+        "modelSupported": true
+      },
+      {
+        "name": "GUNTUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KADAPA",
+        "modelSupported": true
+      },
+      {
+        "name": "KRISHNA",
+        "modelSupported": true
+      },
+      {
+        "name": "KURNOOL",
+        "modelSupported": true
+      },
+      {
+        "name": "PRAKASAM",
+        "modelSupported": true
+      },
+      {
+        "name": "SPSR NELLORE",
+        "modelSupported": true
+      },
+      {
+        "name": "SRIKAKULAM",
+        "modelSupported": true
+      },
+      {
+        "name": "VISAKHAPATANAM",
+        "modelSupported": true
+      },
+      {
+        "name": "VIZIANAGARAM",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST GODAVARI",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "districts": [
+      {
+        "name": "ANJAW",
+        "modelSupported": true
+      },
+      {
+        "name": "CHANGLANG",
+        "modelSupported": true
+      },
+      {
+        "name": "DIBANG VALLEY",
+        "modelSupported": true
+      },
+      {
+        "name": "EAST KAMENG",
+        "modelSupported": true
+      },
+      {
+        "name": "EAST SIANG",
+        "modelSupported": true
+      },
+      {
+        "name": "KURUNG KUMEY",
+        "modelSupported": true
+      },
+      {
+        "name": "LOHIT",
+        "modelSupported": true
+      },
+      {
+        "name": "LONGDING",
+        "modelSupported": true
+      },
+      {
+        "name": "LOWER DIBANG VALLEY",
+        "modelSupported": true
+      },
+      {
+        "name": "LOWER SUBANSIRI",
+        "modelSupported": true
+      },
+      {
+        "name": "NAMSAI",
+        "modelSupported": false
+      },
+      {
+        "name": "PAPUM PARE",
+        "modelSupported": true
+      },
+      {
+        "name": "TAWANG",
+        "modelSupported": true
+      },
+      {
+        "name": "TIRAP",
+        "modelSupported": true
+      },
+      {
+        "name": "UPPER SIANG",
+        "modelSupported": true
+      },
+      {
+        "name": "UPPER SUBANSIRI",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST KAMENG",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST SIANG",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Assam",
+    "districts": [
+      {
+        "name": "BAKSA",
+        "modelSupported": true
+      },
+      {
+        "name": "BARPETA",
+        "modelSupported": true
+      },
+      {
+        "name": "BONGAIGAON",
+        "modelSupported": true
+      },
+      {
+        "name": "CACHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHIRANG",
+        "modelSupported": true
+      },
+      {
+        "name": "DARRANG",
+        "modelSupported": true
+      },
+      {
+        "name": "DHEMAJI",
+        "modelSupported": true
+      },
+      {
+        "name": "DHUBRI",
+        "modelSupported": true
+      },
+      {
+        "name": "DIBRUGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "DIMA HASAO",
+        "modelSupported": true
+      },
+      {
+        "name": "GOALPARA",
+        "modelSupported": true
+      },
+      {
+        "name": "GOLAGHAT",
+        "modelSupported": true
+      },
+      {
+        "name": "HAILAKANDI",
+        "modelSupported": true
+      },
+      {
+        "name": "JORHAT",
+        "modelSupported": true
+      },
+      {
+        "name": "KAMRUP",
+        "modelSupported": true
+      },
+      {
+        "name": "KAMRUP METRO",
+        "modelSupported": true
+      },
+      {
+        "name": "KARBI ANGLONG",
+        "modelSupported": true
+      },
+      {
+        "name": "KARIMGANJ",
+        "modelSupported": true
+      },
+      {
+        "name": "KOKRAJHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "LAKHIMPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "MARIGAON",
+        "modelSupported": true
+      },
+      {
+        "name": "NAGAON",
+        "modelSupported": true
+      },
+      {
+        "name": "NALBARI",
+        "modelSupported": true
+      },
+      {
+        "name": "SIVASAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SONITPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "TINSUKIA",
+        "modelSupported": true
+      },
+      {
+        "name": "UDALGURI",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "districts": [
+      {
+        "name": "ARARIA",
+        "modelSupported": true
+      },
+      {
+        "name": "ARWAL",
+        "modelSupported": true
+      },
+      {
+        "name": "BANKA",
+        "modelSupported": true
+      },
+      {
+        "name": "BEGUSARAI",
+        "modelSupported": true
+      },
+      {
+        "name": "BHAGALPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "BHOJPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "BUXAR",
+        "modelSupported": true
+      },
+      {
+        "name": "DARBHANGA",
+        "modelSupported": true
+      },
+      {
+        "name": "GAYA",
+        "modelSupported": true
+      },
+      {
+        "name": "GOPALGANJ",
+        "modelSupported": true
+      },
+      {
+        "name": "JAMUI",
+        "modelSupported": true
+      },
+      {
+        "name": "JEHANABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "KAIMUR (BHABUA)",
+        "modelSupported": true
+      },
+      {
+        "name": "KATIHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "KHAGARIA",
+        "modelSupported": true
+      },
+      {
+        "name": "KISHANGANJ",
+        "modelSupported": true
+      },
+      {
+        "name": "LAKHISARAI",
+        "modelSupported": true
+      },
+      {
+        "name": "MADHEPURA",
+        "modelSupported": true
+      },
+      {
+        "name": "MADHUBANI",
+        "modelSupported": true
+      },
+      {
+        "name": "MUNGER",
+        "modelSupported": true
+      },
+      {
+        "name": "MUZAFFARPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "NALANDA",
+        "modelSupported": true
+      },
+      {
+        "name": "NAWADA",
+        "modelSupported": true
+      },
+      {
+        "name": "PASHCHIM CHAMPARAN",
+        "modelSupported": true
+      },
+      {
+        "name": "PATNA",
+        "modelSupported": true
+      },
+      {
+        "name": "PURBI CHAMPARAN",
+        "modelSupported": true
+      },
+      {
+        "name": "PURNIA",
+        "modelSupported": true
+      },
+      {
+        "name": "ROHTAS",
+        "modelSupported": true
+      },
+      {
+        "name": "SAHARSA",
+        "modelSupported": true
+      },
+      {
+        "name": "SAMASTIPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SARAN",
+        "modelSupported": true
+      },
+      {
+        "name": "SHEIKHPURA",
+        "modelSupported": true
+      },
+      {
+        "name": "SHEOHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SITAMARHI",
+        "modelSupported": true
+      },
+      {
+        "name": "SIWAN",
+        "modelSupported": true
+      },
+      {
+        "name": "SUPAUL",
+        "modelSupported": true
+      },
+      {
+        "name": "VAISHALI",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Chhattisgarh",
+    "districts": [
+      {
+        "name": "BALOD",
+        "modelSupported": true
+      },
+      {
+        "name": "BALODA BAZAR",
+        "modelSupported": true
+      },
+      {
+        "name": "BALRAMPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "BASTAR",
+        "modelSupported": true
+      },
+      {
+        "name": "BEMETARA",
+        "modelSupported": true
+      },
+      {
+        "name": "BILASPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "DANTEWADA",
+        "modelSupported": true
+      },
+      {
+        "name": "DHAMTARI",
+        "modelSupported": true
+      },
+      {
+        "name": "DURG",
+        "modelSupported": true
+      },
+      {
+        "name": "GARIYABAND",
+        "modelSupported": true
+      },
+      {
+        "name": "JANJGIR-CHAMPA",
+        "modelSupported": true
+      },
+      {
+        "name": "JASHPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KABIRDHAM",
+        "modelSupported": true
+      },
+      {
+        "name": "KANKER",
+        "modelSupported": true
+      },
+      {
+        "name": "KONDAGAON",
+        "modelSupported": true
+      },
+      {
+        "name": "KORBA",
+        "modelSupported": true
+      },
+      {
+        "name": "KOREA",
+        "modelSupported": true
+      },
+      {
+        "name": "MAHASAMUND",
+        "modelSupported": true
+      },
+      {
+        "name": "MUNGELI",
+        "modelSupported": true
+      },
+      {
+        "name": "NARAYANPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "RAIGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "RAIPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "RAJNANDGAON",
+        "modelSupported": true
+      },
+      {
+        "name": "SUKMA",
+        "modelSupported": true
+      },
+      {
+        "name": "SURAJPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SURGUJA",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Goa",
+    "districts": [
+      {
+        "name": "NORTH GOA",
+        "modelSupported": true
+      },
+      {
+        "name": "SOUTH GOA",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "districts": [
+      {
+        "name": "AHMADABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "AMRELI",
+        "modelSupported": true
+      },
+      {
+        "name": "ANAND",
+        "modelSupported": true
+      },
+      {
+        "name": "BANAS KANTHA",
+        "modelSupported": true
+      },
+      {
+        "name": "BHARUCH",
+        "modelSupported": true
+      },
+      {
+        "name": "BHAVNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "DANG",
+        "modelSupported": true
+      },
+      {
+        "name": "DOHAD",
+        "modelSupported": true
+      },
+      {
+        "name": "GANDHINAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "JAMNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "JUNAGADH",
+        "modelSupported": true
+      },
+      {
+        "name": "KACHCHH",
+        "modelSupported": true
+      },
+      {
+        "name": "KHEDA",
+        "modelSupported": true
+      },
+      {
+        "name": "MAHESANA",
+        "modelSupported": true
+      },
+      {
+        "name": "NARMADA",
+        "modelSupported": true
+      },
+      {
+        "name": "NAVSARI",
+        "modelSupported": true
+      },
+      {
+        "name": "PANCH MAHALS",
+        "modelSupported": true
+      },
+      {
+        "name": "PATAN",
+        "modelSupported": true
+      },
+      {
+        "name": "PORBANDAR",
+        "modelSupported": true
+      },
+      {
+        "name": "RAJKOT",
+        "modelSupported": true
+      },
+      {
+        "name": "SABAR KANTHA",
+        "modelSupported": true
+      },
+      {
+        "name": "SURAT",
+        "modelSupported": true
+      },
+      {
+        "name": "SURENDRANAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "TAPI",
+        "modelSupported": true
+      },
+      {
+        "name": "VADODARA",
+        "modelSupported": true
+      },
+      {
+        "name": "VALSAD",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "districts": [
+      {
+        "name": "AMBALA",
+        "modelSupported": true
+      },
+      {
+        "name": "BHIWANI",
+        "modelSupported": true
+      },
+      {
+        "name": "FARIDABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "FATEHABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "GURGAON",
+        "modelSupported": true
+      },
+      {
+        "name": "HISAR",
+        "modelSupported": true
+      },
+      {
+        "name": "JHAJJAR",
+        "modelSupported": true
+      },
+      {
+        "name": "JIND",
+        "modelSupported": true
+      },
+      {
+        "name": "KAITHAL",
+        "modelSupported": true
+      },
+      {
+        "name": "KARNAL",
+        "modelSupported": true
+      },
+      {
+        "name": "KURUKSHETRA",
+        "modelSupported": true
+      },
+      {
+        "name": "MAHENDRAGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "MEWAT",
+        "modelSupported": true
+      },
+      {
+        "name": "PALWAL",
+        "modelSupported": true
+      },
+      {
+        "name": "PANCHKULA",
+        "modelSupported": true
+      },
+      {
+        "name": "PANIPAT",
+        "modelSupported": true
+      },
+      {
+        "name": "REWARI",
+        "modelSupported": true
+      },
+      {
+        "name": "ROHTAK",
+        "modelSupported": true
+      },
+      {
+        "name": "SIRSA",
+        "modelSupported": true
+      },
+      {
+        "name": "SONIPAT",
+        "modelSupported": true
+      },
+      {
+        "name": "YAMUNANAGAR",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "districts": [
+      {
+        "name": "BILASPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHAMBA",
+        "modelSupported": true
+      },
+      {
+        "name": "HAMIRPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KANGRA",
+        "modelSupported": true
+      },
+      {
+        "name": "KINNAUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KULLU",
+        "modelSupported": true
+      },
+      {
+        "name": "LAHUL AND SPITI",
+        "modelSupported": true
+      },
+      {
+        "name": "MANDI",
+        "modelSupported": true
+      },
+      {
+        "name": "SHIMLA",
+        "modelSupported": true
+      },
+      {
+        "name": "SIRMAUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SOLAN",
+        "modelSupported": true
+      },
+      {
+        "name": "UNA",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "districts": [
+      {
+        "name": "ANANTNAG",
+        "modelSupported": true
+      },
+      {
+        "name": "BADGAM",
+        "modelSupported": true
+      },
+      {
+        "name": "BANDIPORA",
+        "modelSupported": true
+      },
+      {
+        "name": "BARAMULLA",
+        "modelSupported": true
+      },
+      {
+        "name": "DODA",
+        "modelSupported": true
+      },
+      {
+        "name": "GANDERBAL",
+        "modelSupported": true
+      },
+      {
+        "name": "JAMMU",
+        "modelSupported": true
+      },
+      {
+        "name": "KATHUA",
+        "modelSupported": true
+      },
+      {
+        "name": "KISHTWAR",
+        "modelSupported": true
+      },
+      {
+        "name": "KULGAM",
+        "modelSupported": true
+      },
+      {
+        "name": "KUPWARA",
+        "modelSupported": true
+      },
+      {
+        "name": "POONCH",
+        "modelSupported": true
+      },
+      {
+        "name": "PULWAMA",
+        "modelSupported": true
+      },
+      {
+        "name": "RAJAURI",
+        "modelSupported": true
+      },
+      {
+        "name": "RAMBAN",
+        "modelSupported": true
+      },
+      {
+        "name": "REASI",
+        "modelSupported": true
+      },
+      {
+        "name": "SAMBA",
+        "modelSupported": true
+      },
+      {
+        "name": "SHOPIAN",
+        "modelSupported": true
+      },
+      {
+        "name": "SRINAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "UDHAMPUR",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "districts": [
+      {
+        "name": "BOKARO",
+        "modelSupported": true
+      },
+      {
+        "name": "CHATRA",
+        "modelSupported": true
+      },
+      {
+        "name": "DEOGHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "DHANBAD",
+        "modelSupported": true
+      },
+      {
+        "name": "DUMKA",
+        "modelSupported": true
+      },
+      {
+        "name": "EAST SINGHBUM",
+        "modelSupported": true
+      },
+      {
+        "name": "GARHWA",
+        "modelSupported": true
+      },
+      {
+        "name": "GIRIDIH",
+        "modelSupported": true
+      },
+      {
+        "name": "GODDA",
+        "modelSupported": true
+      },
+      {
+        "name": "GUMLA",
+        "modelSupported": true
+      },
+      {
+        "name": "HAZARIBAGH",
+        "modelSupported": true
+      },
+      {
+        "name": "JAMTARA",
+        "modelSupported": true
+      },
+      {
+        "name": "KHUNTI",
+        "modelSupported": true
+      },
+      {
+        "name": "KODERMA",
+        "modelSupported": true
+      },
+      {
+        "name": "LATEHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "LOHARDAGA",
+        "modelSupported": true
+      },
+      {
+        "name": "PAKUR",
+        "modelSupported": true
+      },
+      {
+        "name": "PALAMU",
+        "modelSupported": true
+      },
+      {
+        "name": "RAMGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "RANCHI",
+        "modelSupported": true
+      },
+      {
+        "name": "SAHEBGANJ",
+        "modelSupported": true
+      },
+      {
+        "name": "SARAIKELA KHARSAWAN",
+        "modelSupported": true
+      },
+      {
+        "name": "SIMDEGA",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST SINGHBHUM",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "districts": [
+      {
+        "name": "BAGALKOT",
+        "modelSupported": true
+      },
+      {
+        "name": "BANGALORE RURAL",
+        "modelSupported": true
+      },
+      {
+        "name": "BELGAUM",
+        "modelSupported": true
+      },
+      {
+        "name": "BELLARY",
+        "modelSupported": true
+      },
+      {
+        "name": "BENGALURU URBAN",
+        "modelSupported": true
+      },
+      {
+        "name": "BIDAR",
+        "modelSupported": true
+      },
+      {
+        "name": "BIJAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHAMARAJANAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHIKBALLAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHIKMAGALUR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHITRADURGA",
+        "modelSupported": true
+      },
+      {
+        "name": "DAKSHIN KANNAD",
+        "modelSupported": true
+      },
+      {
+        "name": "DAVANGERE",
+        "modelSupported": true
+      },
+      {
+        "name": "DHARWAD",
+        "modelSupported": true
+      },
+      {
+        "name": "GADAG",
+        "modelSupported": true
+      },
+      {
+        "name": "GULBARGA",
+        "modelSupported": true
+      },
+      {
+        "name": "HASSAN",
+        "modelSupported": true
+      },
+      {
+        "name": "HAVERI",
+        "modelSupported": true
+      },
+      {
+        "name": "KODAGU",
+        "modelSupported": true
+      },
+      {
+        "name": "KOLAR",
+        "modelSupported": true
+      },
+      {
+        "name": "KOPPAL",
+        "modelSupported": true
+      },
+      {
+        "name": "MANDYA",
+        "modelSupported": true
+      },
+      {
+        "name": "MYSORE",
+        "modelSupported": true
+      },
+      {
+        "name": "RAICHUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SHIMOGA",
+        "modelSupported": true
+      },
+      {
+        "name": "TUMKUR",
+        "modelSupported": true
+      },
+      {
+        "name": "UDUPI",
+        "modelSupported": true
+      },
+      {
+        "name": "UTTAR KANNAD",
+        "modelSupported": true
+      },
+      {
+        "name": "YADGIR",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Kerala",
+    "districts": [
+      {
+        "name": "ALAPPUZHA",
+        "modelSupported": true
+      },
+      {
+        "name": "ERNAKULAM",
+        "modelSupported": true
+      },
+      {
+        "name": "IDUKKI",
+        "modelSupported": true
+      },
+      {
+        "name": "KANNUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KASARAGOD",
+        "modelSupported": true
+      },
+      {
+        "name": "KOLLAM",
+        "modelSupported": true
+      },
+      {
+        "name": "KOTTAYAM",
+        "modelSupported": true
+      },
+      {
+        "name": "KOZHIKODE",
+        "modelSupported": true
+      },
+      {
+        "name": "MALAPPURAM",
+        "modelSupported": true
+      },
+      {
+        "name": "PALAKKAD",
+        "modelSupported": true
+      },
+      {
+        "name": "PATHANAMTHITTA",
+        "modelSupported": true
+      },
+      {
+        "name": "THIRUVANANTHAPURAM",
+        "modelSupported": true
+      },
+      {
+        "name": "THRISSUR",
+        "modelSupported": true
+      },
+      {
+        "name": "WAYANAD",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "districts": [
+      {
+        "name": "AGAR MALWA",
+        "modelSupported": true
+      },
+      {
+        "name": "ALIRAJPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "ANUPPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "ASHOKNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "BALAGHAT",
+        "modelSupported": true
+      },
+      {
+        "name": "BARWANI",
+        "modelSupported": true
+      },
+      {
+        "name": "BETUL",
+        "modelSupported": true
+      },
+      {
+        "name": "BHIND",
+        "modelSupported": true
+      },
+      {
+        "name": "BHOPAL",
+        "modelSupported": true
+      },
+      {
+        "name": "BURHANPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHHATARPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHHINDWARA",
+        "modelSupported": true
+      },
+      {
+        "name": "DAMOH",
+        "modelSupported": true
+      },
+      {
+        "name": "DATIA",
+        "modelSupported": true
+      },
+      {
+        "name": "DEWAS",
+        "modelSupported": true
+      },
+      {
+        "name": "DHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "DINDORI",
+        "modelSupported": true
+      },
+      {
+        "name": "GUNA",
+        "modelSupported": true
+      },
+      {
+        "name": "GWALIOR",
+        "modelSupported": true
+      },
+      {
+        "name": "HARDA",
+        "modelSupported": true
+      },
+      {
+        "name": "HOSHANGABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "INDORE",
+        "modelSupported": true
+      },
+      {
+        "name": "JABALPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "JHABUA",
+        "modelSupported": true
+      },
+      {
+        "name": "KATNI",
+        "modelSupported": true
+      },
+      {
+        "name": "KHANDWA",
+        "modelSupported": true
+      },
+      {
+        "name": "KHARGONE",
+        "modelSupported": true
+      },
+      {
+        "name": "MANDLA",
+        "modelSupported": true
+      },
+      {
+        "name": "MANDSAUR",
+        "modelSupported": true
+      },
+      {
+        "name": "MORENA",
+        "modelSupported": true
+      },
+      {
+        "name": "NARSINGHPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "NEEMUCH",
+        "modelSupported": true
+      },
+      {
+        "name": "PANNA",
+        "modelSupported": true
+      },
+      {
+        "name": "RAISEN",
+        "modelSupported": true
+      },
+      {
+        "name": "RAJGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "RATLAM",
+        "modelSupported": true
+      },
+      {
+        "name": "REWA",
+        "modelSupported": true
+      },
+      {
+        "name": "SAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SATNA",
+        "modelSupported": true
+      },
+      {
+        "name": "SEHORE",
+        "modelSupported": true
+      },
+      {
+        "name": "SEONI",
+        "modelSupported": true
+      },
+      {
+        "name": "SHAHDOL",
+        "modelSupported": true
+      },
+      {
+        "name": "SHAJAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SHEOPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SHIVPURI",
+        "modelSupported": true
+      },
+      {
+        "name": "SIDHI",
+        "modelSupported": true
+      },
+      {
+        "name": "SINGRAULI",
+        "modelSupported": true
+      },
+      {
+        "name": "TIKAMGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "UJJAIN",
+        "modelSupported": true
+      },
+      {
+        "name": "UMARIA",
+        "modelSupported": true
+      },
+      {
+        "name": "VIDISHA",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Maharashtra",
+    "districts": [
+      {
+        "name": "AHMEDNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "AKOLA",
+        "modelSupported": true
+      },
+      {
+        "name": "AMRAVATI",
+        "modelSupported": true
+      },
+      {
+        "name": "AURANGABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "BEED",
+        "modelSupported": true
+      },
+      {
+        "name": "BHANDARA",
+        "modelSupported": true
+      },
+      {
+        "name": "BULDHANA",
+        "modelSupported": true
+      },
+      {
+        "name": "CHANDRAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "DHULE",
+        "modelSupported": true
+      },
+      {
+        "name": "GADCHIROLI",
+        "modelSupported": true
+      },
+      {
+        "name": "GONDIA",
+        "modelSupported": true
+      },
+      {
+        "name": "HINGOLI",
+        "modelSupported": true
+      },
+      {
+        "name": "JALGAON",
+        "modelSupported": true
+      },
+      {
+        "name": "JALNA",
+        "modelSupported": true
+      },
+      {
+        "name": "KOLHAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "LATUR",
+        "modelSupported": true
+      },
+      {
+        "name": "NAGPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "NANDED",
+        "modelSupported": true
+      },
+      {
+        "name": "NANDURBAR",
+        "modelSupported": true
+      },
+      {
+        "name": "NASHIK",
+        "modelSupported": true
+      },
+      {
+        "name": "OSMANABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "PALGHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "PARBHANI",
+        "modelSupported": true
+      },
+      {
+        "name": "PUNE",
+        "modelSupported": true
+      },
+      {
+        "name": "RAIGAD",
+        "modelSupported": true
+      },
+      {
+        "name": "RATNAGIRI",
+        "modelSupported": true
+      },
+      {
+        "name": "SANGLI",
+        "modelSupported": true
+      },
+      {
+        "name": "SATARA",
+        "modelSupported": true
+      },
+      {
+        "name": "SINDHUDURG",
+        "modelSupported": true
+      },
+      {
+        "name": "SOLAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "THANE",
+        "modelSupported": true
+      },
+      {
+        "name": "WARDHA",
+        "modelSupported": true
+      },
+      {
+        "name": "WASHIM",
+        "modelSupported": true
+      },
+      {
+        "name": "YAVATMAL",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Manipur",
+    "districts": [
+      {
+        "name": "CHURACHANDPUR",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Meghalaya",
+    "districts": [
+      {
+        "name": "EAST GARO HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "EAST JAINTIA HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "EAST KHASI HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "NORTH GARO HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "RI BHOI",
+        "modelSupported": true
+      },
+      {
+        "name": "SOUTH GARO HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "SOUTH WEST GARO HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "SOUTH WEST KHASI HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST GARO HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST JAINTIA HILLS",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST KHASI HILLS",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Mizoram",
+    "districts": [
+      {
+        "name": "AIZAWL",
+        "modelSupported": true
+      },
+      {
+        "name": "CHAMPHAI",
+        "modelSupported": true
+      },
+      {
+        "name": "KOLASIB",
+        "modelSupported": true
+      },
+      {
+        "name": "LAWNGTLAI",
+        "modelSupported": true
+      },
+      {
+        "name": "LUNGLEI",
+        "modelSupported": true
+      },
+      {
+        "name": "MAMIT",
+        "modelSupported": true
+      },
+      {
+        "name": "SAIHA",
+        "modelSupported": true
+      },
+      {
+        "name": "SERCHHIP",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Nagaland",
+    "districts": [
+      {
+        "name": "DIMAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KIPHIRE",
+        "modelSupported": true
+      },
+      {
+        "name": "KOHIMA",
+        "modelSupported": true
+      },
+      {
+        "name": "LONGLENG",
+        "modelSupported": true
+      },
+      {
+        "name": "MOKOKCHUNG",
+        "modelSupported": true
+      },
+      {
+        "name": "MON",
+        "modelSupported": true
+      },
+      {
+        "name": "PEREN",
+        "modelSupported": true
+      },
+      {
+        "name": "PHEK",
+        "modelSupported": true
+      },
+      {
+        "name": "TUENSANG",
+        "modelSupported": true
+      },
+      {
+        "name": "WOKHA",
+        "modelSupported": true
+      },
+      {
+        "name": "ZUNHEBOTO",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Odisha",
+    "districts": [
+      {
+        "name": "ANUGUL",
+        "modelSupported": true
+      },
+      {
+        "name": "BALANGIR",
+        "modelSupported": true
+      },
+      {
+        "name": "BALESHWAR",
+        "modelSupported": true
+      },
+      {
+        "name": "BARGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "BHADRAK",
+        "modelSupported": true
+      },
+      {
+        "name": "BOUDH",
+        "modelSupported": true
+      },
+      {
+        "name": "CUTTACK",
+        "modelSupported": true
+      },
+      {
+        "name": "DEOGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "DHENKANAL",
+        "modelSupported": true
+      },
+      {
+        "name": "GAJAPATI",
+        "modelSupported": true
+      },
+      {
+        "name": "GANJAM",
+        "modelSupported": true
+      },
+      {
+        "name": "JAGATSINGHAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "JAJAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "JHARSUGUDA",
+        "modelSupported": true
+      },
+      {
+        "name": "KALAHANDI",
+        "modelSupported": true
+      },
+      {
+        "name": "KANDHAMAL",
+        "modelSupported": true
+      },
+      {
+        "name": "KENDRAPARA",
+        "modelSupported": true
+      },
+      {
+        "name": "KENDUJHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "KHORDHA",
+        "modelSupported": true
+      },
+      {
+        "name": "KORAPUT",
+        "modelSupported": true
+      },
+      {
+        "name": "MALKANGIRI",
+        "modelSupported": true
+      },
+      {
+        "name": "MAYURBHANJ",
+        "modelSupported": true
+      },
+      {
+        "name": "NABARANGPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "NAYAGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "NUAPADA",
+        "modelSupported": true
+      },
+      {
+        "name": "PURI",
+        "modelSupported": true
+      },
+      {
+        "name": "RAYAGADA",
+        "modelSupported": true
+      },
+      {
+        "name": "SAMBALPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SONEPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SUNDARGARH",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Puducherry",
+    "districts": [
+      {
+        "name": "KARAIKAL",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Punjab",
+    "districts": [
+      {
+        "name": "AMRITSAR",
+        "modelSupported": true
+      },
+      {
+        "name": "BARNALA",
+        "modelSupported": true
+      },
+      {
+        "name": "BATHINDA",
+        "modelSupported": true
+      },
+      {
+        "name": "FARIDKOT",
+        "modelSupported": true
+      },
+      {
+        "name": "FATEHGARH SAHIB",
+        "modelSupported": true
+      },
+      {
+        "name": "FAZILKA",
+        "modelSupported": true
+      },
+      {
+        "name": "FIROZEPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "GURDASPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "HOSHIARPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "JALANDHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "KAPURTHALA",
+        "modelSupported": true
+      },
+      {
+        "name": "LUDHIANA",
+        "modelSupported": true
+      },
+      {
+        "name": "MANSA",
+        "modelSupported": true
+      },
+      {
+        "name": "MOGA",
+        "modelSupported": true
+      },
+      {
+        "name": "MUKTSAR",
+        "modelSupported": true
+      },
+      {
+        "name": "NAWANSHAHR",
+        "modelSupported": true
+      },
+      {
+        "name": "PATHANKOT",
+        "modelSupported": true
+      },
+      {
+        "name": "PATIALA",
+        "modelSupported": true
+      },
+      {
+        "name": "RUPNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "S.A.S NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SANGRUR",
+        "modelSupported": true
+      },
+      {
+        "name": "TARN TARAN",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Rajasthan",
+    "districts": [
+      {
+        "name": "AJMER",
+        "modelSupported": true
+      },
+      {
+        "name": "ALWAR",
+        "modelSupported": true
+      },
+      {
+        "name": "BANSWARA",
+        "modelSupported": true
+      },
+      {
+        "name": "BARAN",
+        "modelSupported": true
+      },
+      {
+        "name": "BARMER",
+        "modelSupported": true
+      },
+      {
+        "name": "BHARATPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "BHILWARA",
+        "modelSupported": true
+      },
+      {
+        "name": "BIKANER",
+        "modelSupported": true
+      },
+      {
+        "name": "BUNDI",
+        "modelSupported": true
+      },
+      {
+        "name": "CHITTORGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "CHURU",
+        "modelSupported": true
+      },
+      {
+        "name": "DAUSA",
+        "modelSupported": true
+      },
+      {
+        "name": "DHOLPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "DUNGARPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "GANGANAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "HANUMANGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "JAIPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "JAISALMER",
+        "modelSupported": true
+      },
+      {
+        "name": "JALORE",
+        "modelSupported": true
+      },
+      {
+        "name": "JHALAWAR",
+        "modelSupported": true
+      },
+      {
+        "name": "JHUNJHUNU",
+        "modelSupported": true
+      },
+      {
+        "name": "JODHPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KARAULI",
+        "modelSupported": true
+      },
+      {
+        "name": "KOTA",
+        "modelSupported": true
+      },
+      {
+        "name": "NAGAUR",
+        "modelSupported": true
+      },
+      {
+        "name": "PALI",
+        "modelSupported": true
+      },
+      {
+        "name": "PRATAPGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "RAJSAMAND",
+        "modelSupported": true
+      },
+      {
+        "name": "SAWAI MADHOPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SIKAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SIROHI",
+        "modelSupported": true
+      },
+      {
+        "name": "TONK",
+        "modelSupported": true
+      },
+      {
+        "name": "UDAIPUR",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "districts": [
+      {
+        "name": "ARIYALUR",
+        "modelSupported": true
+      },
+      {
+        "name": "COIMBATORE",
+        "modelSupported": true
+      },
+      {
+        "name": "CUDDALORE",
+        "modelSupported": true
+      },
+      {
+        "name": "DHARMAPURI",
+        "modelSupported": true
+      },
+      {
+        "name": "DINDIGUL",
+        "modelSupported": true
+      },
+      {
+        "name": "ERODE",
+        "modelSupported": true
+      },
+      {
+        "name": "KANCHIPURAM",
+        "modelSupported": true
+      },
+      {
+        "name": "KANNIYAKUMARI",
+        "modelSupported": true
+      },
+      {
+        "name": "KARUR",
+        "modelSupported": true
+      },
+      {
+        "name": "KRISHNAGIRI",
+        "modelSupported": true
+      },
+      {
+        "name": "MADURAI",
+        "modelSupported": true
+      },
+      {
+        "name": "NAGAPATTINAM",
+        "modelSupported": true
+      },
+      {
+        "name": "NAMAKKAL",
+        "modelSupported": true
+      },
+      {
+        "name": "PERAMBALUR",
+        "modelSupported": true
+      },
+      {
+        "name": "PUDUKKOTTAI",
+        "modelSupported": true
+      },
+      {
+        "name": "RAMANATHAPURAM",
+        "modelSupported": true
+      },
+      {
+        "name": "SALEM",
+        "modelSupported": true
+      },
+      {
+        "name": "SIVAGANGA",
+        "modelSupported": true
+      },
+      {
+        "name": "THANJAVUR",
+        "modelSupported": true
+      },
+      {
+        "name": "THE NILGIRIS",
+        "modelSupported": true
+      },
+      {
+        "name": "THENI",
+        "modelSupported": true
+      },
+      {
+        "name": "THIRUVALLUR",
+        "modelSupported": true
+      },
+      {
+        "name": "THIRUVARUR",
+        "modelSupported": true
+      },
+      {
+        "name": "TIRUCHIRAPPALLI",
+        "modelSupported": true
+      },
+      {
+        "name": "TIRUNELVELI",
+        "modelSupported": true
+      },
+      {
+        "name": "TIRUPPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "TIRUVANNAMALAI",
+        "modelSupported": true
+      },
+      {
+        "name": "TUTICORIN",
+        "modelSupported": true
+      },
+      {
+        "name": "VELLORE",
+        "modelSupported": true
+      },
+      {
+        "name": "VILLUPURAM",
+        "modelSupported": true
+      },
+      {
+        "name": "VIRUDHUNAGAR",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Telangana",
+    "districts": [
+      {
+        "name": "ADILABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "KARIMNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "KHAMMAM",
+        "modelSupported": true
+      },
+      {
+        "name": "MAHBUBNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "MEDAK",
+        "modelSupported": true
+      },
+      {
+        "name": "NALGONDA",
+        "modelSupported": true
+      },
+      {
+        "name": "NIZAMABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "RANGAREDDI",
+        "modelSupported": true
+      },
+      {
+        "name": "WARANGAL",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Tripura",
+    "districts": [
+      {
+        "name": "DHALAI",
+        "modelSupported": true
+      },
+      {
+        "name": "GOMATI",
+        "modelSupported": true
+      },
+      {
+        "name": "KHOWAI",
+        "modelSupported": true
+      },
+      {
+        "name": "NORTH TRIPURA",
+        "modelSupported": true
+      },
+      {
+        "name": "SEPAHIJALA",
+        "modelSupported": true
+      },
+      {
+        "name": "SOUTH TRIPURA",
+        "modelSupported": true
+      },
+      {
+        "name": "UNAKOTI",
+        "modelSupported": true
+      },
+      {
+        "name": "WEST TRIPURA",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "districts": [
+      {
+        "name": "AGRA",
+        "modelSupported": true
+      },
+      {
+        "name": "ALIGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "ALLAHABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "AMBEDKAR NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "AMETHI",
+        "modelSupported": true
+      },
+      {
+        "name": "AMROHA",
+        "modelSupported": true
+      },
+      {
+        "name": "AURAIYA",
+        "modelSupported": true
+      },
+      {
+        "name": "AZAMGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "BAGHPAT",
+        "modelSupported": true
+      },
+      {
+        "name": "BAHRAICH",
+        "modelSupported": true
+      },
+      {
+        "name": "BALLIA",
+        "modelSupported": true
+      },
+      {
+        "name": "BANDA",
+        "modelSupported": true
+      },
+      {
+        "name": "BARABANKI",
+        "modelSupported": true
+      },
+      {
+        "name": "BAREILLY",
+        "modelSupported": true
+      },
+      {
+        "name": "BASTI",
+        "modelSupported": true
+      },
+      {
+        "name": "BIJNOR",
+        "modelSupported": true
+      },
+      {
+        "name": "BUDAUN",
+        "modelSupported": true
+      },
+      {
+        "name": "BULANDSHAHR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHANDAULI",
+        "modelSupported": true
+      },
+      {
+        "name": "CHITRAKOOT",
+        "modelSupported": true
+      },
+      {
+        "name": "DEORIA",
+        "modelSupported": true
+      },
+      {
+        "name": "ETAH",
+        "modelSupported": true
+      },
+      {
+        "name": "ETAWAH",
+        "modelSupported": true
+      },
+      {
+        "name": "FAIZABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "FARRUKHABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "FATEHPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "FIROZABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "GAUTAM BUDDHA NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "GHAZIABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "GHAZIPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "GONDA",
+        "modelSupported": true
+      },
+      {
+        "name": "GORAKHPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "HAMIRPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "HAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "HARDOI",
+        "modelSupported": true
+      },
+      {
+        "name": "HATHRAS",
+        "modelSupported": true
+      },
+      {
+        "name": "JALAUN",
+        "modelSupported": true
+      },
+      {
+        "name": "JAUNPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "JHANSI",
+        "modelSupported": true
+      },
+      {
+        "name": "KANNAUJ",
+        "modelSupported": true
+      },
+      {
+        "name": "KANPUR DEHAT",
+        "modelSupported": true
+      },
+      {
+        "name": "KANPUR NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "KASGANJ",
+        "modelSupported": true
+      },
+      {
+        "name": "KAUSHAMBI",
+        "modelSupported": true
+      },
+      {
+        "name": "KHERI",
+        "modelSupported": true
+      },
+      {
+        "name": "KUSHI NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "LALITPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "LUCKNOW",
+        "modelSupported": true
+      },
+      {
+        "name": "MAHARAJGANJ",
+        "modelSupported": true
+      },
+      {
+        "name": "MAHOBA",
+        "modelSupported": true
+      },
+      {
+        "name": "MAINPURI",
+        "modelSupported": true
+      },
+      {
+        "name": "MATHURA",
+        "modelSupported": true
+      },
+      {
+        "name": "MAU",
+        "modelSupported": true
+      },
+      {
+        "name": "MEERUT",
+        "modelSupported": true
+      },
+      {
+        "name": "MIRZAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "MORADABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "MUZAFFARNAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "PILIBHIT",
+        "modelSupported": true
+      },
+      {
+        "name": "PRATAPGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "RAE BARELI",
+        "modelSupported": true
+      },
+      {
+        "name": "RAMPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SAHARANPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SAMBHAL",
+        "modelSupported": true
+      },
+      {
+        "name": "SANT KABEER NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SANT RAVIDAS NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SHAHJAHANPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SHAMLI",
+        "modelSupported": true
+      },
+      {
+        "name": "SHRAVASTI",
+        "modelSupported": true
+      },
+      {
+        "name": "SIDDHARTH NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "SITAPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "SONBHADRA",
+        "modelSupported": true
+      },
+      {
+        "name": "SULTANPUR",
+        "modelSupported": true
+      },
+      {
+        "name": "UNNAO",
+        "modelSupported": true
+      },
+      {
+        "name": "VARANASI",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "Uttarakhand",
+    "districts": [
+      {
+        "name": "ALMORA",
+        "modelSupported": true
+      },
+      {
+        "name": "BAGESHWAR",
+        "modelSupported": true
+      },
+      {
+        "name": "CHAMOLI",
+        "modelSupported": true
+      },
+      {
+        "name": "CHAMPAWAT",
+        "modelSupported": true
+      },
+      {
+        "name": "DEHRADUN",
+        "modelSupported": true
+      },
+      {
+        "name": "HARIDWAR",
+        "modelSupported": true
+      },
+      {
+        "name": "NAINITAL",
+        "modelSupported": true
+      },
+      {
+        "name": "PAURI GARHWAL",
+        "modelSupported": true
+      },
+      {
+        "name": "PITHORAGARH",
+        "modelSupported": true
+      },
+      {
+        "name": "RUDRA PRAYAG",
+        "modelSupported": true
+      },
+      {
+        "name": "TEHRI GARHWAL",
+        "modelSupported": true
+      },
+      {
+        "name": "UDAM SINGH NAGAR",
+        "modelSupported": true
+      },
+      {
+        "name": "UTTAR KASHI",
+        "modelSupported": true
+      }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "districts": [
+      {
+        "name": "24 PARAGANAS NORTH",
+        "modelSupported": true
+      },
+      {
+        "name": "24 PARAGANAS SOUTH",
+        "modelSupported": true
+      },
+      {
+        "name": "BANKURA",
+        "modelSupported": true
+      },
+      {
+        "name": "BARDHAMAN",
+        "modelSupported": true
+      },
+      {
+        "name": "BIRBHUM",
+        "modelSupported": true
+      },
+      {
+        "name": "COOCHBEHAR",
+        "modelSupported": true
+      },
+      {
+        "name": "DARJEELING",
+        "modelSupported": true
+      },
+      {
+        "name": "DINAJPUR DAKSHIN",
+        "modelSupported": true
+      },
+      {
+        "name": "DINAJPUR UTTAR",
+        "modelSupported": true
+      },
+      {
+        "name": "HOOGHLY",
+        "modelSupported": true
+      },
+      {
+        "name": "HOWRAH",
+        "modelSupported": true
+      },
+      {
+        "name": "JALPAIGURI",
+        "modelSupported": true
+      },
+      {
+        "name": "MALDAH",
+        "modelSupported": true
+      },
+      {
+        "name": "MEDINIPUR EAST",
+        "modelSupported": true
+      },
+      {
+        "name": "MEDINIPUR WEST",
+        "modelSupported": true
+      },
+      {
+        "name": "MURSHIDABAD",
+        "modelSupported": true
+      },
+      {
+        "name": "NADIA",
+        "modelSupported": true
+      },
+      {
+        "name": "PURULIA",
+        "modelSupported": true
+      }
+    ]
+  }
+]

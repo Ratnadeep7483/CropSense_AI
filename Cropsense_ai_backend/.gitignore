@@ -1,0 +1,40 @@
+# ============================================================
+# CropSense AI Backend — .gitignore
+# ============================================================
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Generated historical weather cache
+data/weather_cache/
+
+# Note: Trained model files (.json, .joblib) are NOT ignored.
+# They are kept in version control unless a separate decision
+# is made to use Git LFS or a model registry.

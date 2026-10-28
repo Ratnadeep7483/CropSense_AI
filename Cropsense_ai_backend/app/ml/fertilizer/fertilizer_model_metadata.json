@@ -1,0 +1,33 @@
+{
+    "model_name": "fertilizer_xgboost_pipeline",
+    "model_type": "XGBClassifier",
+    "purpose": "Fertilizer recommendation based on crop and agricultural conditions",
+    "training_rows": 2238,
+    "test_rows": 560,
+    "classes": [
+        "Balanced NPK Fertilizer",
+        "Compost",
+        "DAP",
+        "General Purpose Fertilizer",
+        "Gypsum",
+        "Lime",
+        "Muriate of Potash",
+        "Organic Fertilizer",
+        "Urea",
+        "Water Retaining Fertilizer"
+    ],
+    "cv_macro_f1": 0.9920892429361728,
+    "test_accuracy": 0.9928571428571429,
+    "test_macro_precision": 0.9869343863683486,
+    "test_macro_recall": 0.9918570980652539,
+    "test_macro_f1": 0.9891464000934281,
+    "test_weighted_f1": 0.9928670354130126,
+    "correct_test_predictions": 556,
+    "incorrect_test_predictions": 4,
+    "feature_count": 10,
+    "transformed_feature_count": 44,
+    "excluded_features": [
+        "Remark"
+    ],
+    "random_state": 42
+}

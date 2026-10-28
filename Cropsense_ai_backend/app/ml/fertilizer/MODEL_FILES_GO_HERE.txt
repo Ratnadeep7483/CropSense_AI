@@ -1,0 +1,17 @@
+================================================================
+FERTILIZER RECOMMENDATION — MODEL FILES
+================================================================
+
+Place the following trained model files in THIS directory:
+
+1. fertilizer_xgboost.json
+   → The trained XGBoost fertilizer recommendation model (JSON format).
+
+2. fertilizer_model_metadata.json
+   → Metadata file describing the fertilizer model configuration.
+
+Source: Extract from the provided ZIP archive.
+
+DO NOT rename these files.
+DO NOT modify these files.
+================================================================

@@ -1,0 +1,32 @@
+# ============================================================
+# CropSense AI Backend — Python Dependencies
+# ============================================================
+# Yield runtime exercised with the saved artifact:
+#   Python 3.11.8  |  LightGBM 4.6.0
+# ============================================================
+
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+httpx>=0.27.0
+
+# Data validation
+pydantic>=2.10.0
+
+# ML / Data
+xgboost==3.4.1
+lightgbm==4.6.0
+scikit-learn==1.6.1
+pandas>=2.2.0
+numpy>=2.0.0
+joblib>=1.4.0
+openpyxl>=3.1.5
+xlrd>=2.0.1
+
+# Multipart form support (if needed for future file uploads)
+python-multipart>=0.0.18
+
+# EfficientNet-B2 soil image classification
+torch==2.6.0
+torchvision==0.21.0
+Pillow>=10.0.0

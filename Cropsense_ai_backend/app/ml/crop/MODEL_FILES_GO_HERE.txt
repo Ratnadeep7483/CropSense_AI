@@ -1,0 +1,22 @@
+================================================================
+DEPLOYED CROP RECOMMENDATION — MODEL ARTIFACTS
+================================================================
+
+The crop API loads these three serialized artifacts from the
+`model_artifacts` subdirectory:
+
+1. crop_xgboost_model.joblib
+   → The deployed XGBoost classifier.
+
+2. crop_preprocessor.joblib
+   → The fitted 12-feature preprocessing pipeline.
+
+3. crop_label_encoder.joblib
+   → The fitted crop-label encoder.
+
+The production loader and expected feature interface are defined in
+`app/services/crop_service.py`. Keep the three artifacts from the same
+training run.
+
+Do not substitute legacy model files for this artifact set.
+================================================================

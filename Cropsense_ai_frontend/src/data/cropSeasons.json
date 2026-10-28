@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Autumn",
+    "recordCount": 4737,
+    "modelSupported": true
+  },
+  {
+    "name": "Kharif",
+    "recordCount": 84730,
+    "modelSupported": true
+  },
+  {
+    "name": "Rabi",
+    "recordCount": 61550,
+    "modelSupported": true
+  },
+  {
+    "name": "Summer",
+    "recordCount": 14438,
+    "modelSupported": true
+  },
+  {
+    "name": "Whole Year",
+    "recordCount": 46949,
+    "modelSupported": true
+  },
+  {
+    "name": "Winter",
+    "recordCount": 5785,
+    "modelSupported": true
+  }
+]

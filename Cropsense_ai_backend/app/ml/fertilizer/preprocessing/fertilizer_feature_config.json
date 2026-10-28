@@ -1,0 +1,64 @@
+{
+    "target": "Fertilizer",
+    "numerical_features": [
+        "Temperature",
+        "Moisture",
+        "Rainfall",
+        "PH",
+        "Nitrogen",
+        "Phosphorous",
+        "Potassium",
+        "Carbon"
+    ],
+    "categorical_features": [
+        "Soil",
+        "Crop"
+    ],
+    "all_features": [
+        "Temperature",
+        "Moisture",
+        "Rainfall",
+        "PH",
+        "Nitrogen",
+        "Phosphorous",
+        "Potassium",
+        "Carbon",
+        "Soil",
+        "Crop"
+    ],
+    "excluded_features": [
+        "Remark"
+    ],
+    "original_feature_count": 10,
+    "transformed_feature_count": 44,
+    "number_of_classes": 10,
+    "classes": [
+        "Balanced NPK Fertilizer",
+        "Compost",
+        "DAP",
+        "General Purpose Fertilizer",
+        "Gypsum",
+        "Lime",
+        "Muriate of Potash",
+        "Organic Fertilizer",
+        "Urea",
+        "Water Retaining Fertilizer"
+    ],
+    "model": "XGBoost",
+    "pipeline": true,
+    "model_parameters": {
+        "n_estimators": 300,
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "random_state": 42
+    },
+    "cv_folds": 5,
+    "cv_macro_f1": 0.9920892429361728,
+    "test_accuracy": 0.9928571428571429,
+    "test_macro_precision": 0.9869343863683486,
+    "test_macro_recall": 0.9918570980652539,
+    "test_macro_f1": 0.9891464000934281,
+    "test_weighted_f1": 0.9928670354130126
+}

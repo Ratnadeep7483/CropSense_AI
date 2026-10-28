@@ -1,0 +1,42 @@
+{
+    "architecture": "EfficientNet-B2",
+    "input_size": 288,
+    "num_classes": 6,
+    "class_names": [
+        "Alluvial_Soil",
+        "Arid_Soil",
+        "Black_Soil",
+        "Laterite_Soil",
+        "Mountain_Soil",
+        "Red_Soil"
+    ],
+    "class_to_idx": {
+        "Alluvial_Soil": 0,
+        "Arid_Soil": 1,
+        "Black_Soil": 2,
+        "Laterite_Soil": 3,
+        "Mountain_Soil": 4,
+        "Red_Soil": 5
+    },
+    "idx_to_class": {
+        "0": "Alluvial_Soil",
+        "1": "Arid_Soil",
+        "2": "Black_Soil",
+        "3": "Laterite_Soil",
+        "4": "Mountain_Soil",
+        "5": "Red_Soil"
+    },
+    "normalization": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "checkpoint_filename": "efficientnet_b2_soil_best.pth"
+}

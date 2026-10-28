@@ -1,0 +1,606 @@
+{
+  "scope": "Karnataka only",
+  "source_workbook": "D:\\download\\KARNATAKA 2.xlsx",
+  "source_url": "https://lgdirectory.gov.in/downloadDirectory.do",
+  "source_report_title": "All Districts of Karnataka (State Code:29) State",
+  "source_state_code": "29",
+  "source_worksheet": "Report",
+  "source_report_generated_at": "2026-10-20 23:39",
+  "source_file_creation_date_observed": "2026-10-20",
+  "source_downloaded_at_basis": "Local file creation timestamp recorded in the snapshot; filesystem metadata, not an independent download receipt.",
+  "source_file_sha256": "4c70cdf3e8df2bf5f906c09099610b55e23e285c3a6834da47e0eb53eadeb3b1",
+  "source_file_hash_note": "SHA-256 computed from the provided workbook bytes.",
+  "matching_strategy": "State-qualified identity (Karnataka / LGD state code 29) plus exact English name after case-insensitive, whitespace-only normalization. No fuzzy matching, code guessing, or alias inference.",
+  "counts": {
+    "crop_state_district_pairs": 29,
+    "lgd_district_records": 31,
+    "direct_normalized_identity_matches": 15,
+    "pending_alias_or_historical_name_review": 13,
+    "existing_mysore_pilot_preserved_without_lgd_crosswalk": 1,
+    "coordinate_pairs_verified_by_this_update": 0,
+    "new_weather_locations_activated": 0,
+    "lgd_records_without_direct_crop_label": 16,
+    "duplicate_lgd_codes": 0,
+    "missing_lgd_names_or_codes": 0,
+    "resolver_supported_pairs": 627,
+    "resolver_verified_pairs_after_update": 2,
+    "resolver_unmatched_pairs_after_update": 619,
+    "resolver_ambiguous_pairs_after_update": 6,
+    "resolver_suspicious_pairs_after_update": 0
+  },
+  "direct_matches": [
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BENGALURU URBAN",
+      "official_lgd_district_name": "Bengaluru Urban",
+      "district_lgd_code": "525",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B11:D11"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BIDAR",
+      "official_lgd_district_name": "Bidar",
+      "district_lgd_code": "529",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B12:D12"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHAMARAJANAGAR",
+      "official_lgd_district_name": "Chamarajanagar",
+      "district_lgd_code": "531",
+      "district_version": "3",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B13:D13"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHITRADURGA",
+      "official_lgd_district_name": "Chitradurga",
+      "district_lgd_code": "533",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B16:D16"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "DHARWAD",
+      "official_lgd_district_name": "Dharwad",
+      "district_lgd_code": "536",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B19:D19"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "GADAG",
+      "official_lgd_district_name": "Gadag",
+      "district_lgd_code": "537",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B20:D20"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "HASSAN",
+      "official_lgd_district_name": "Hassan",
+      "district_lgd_code": "539",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B21:D21"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "HAVERI",
+      "official_lgd_district_name": "Haveri",
+      "district_lgd_code": "540",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B22:D22"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "KODAGU",
+      "official_lgd_district_name": "Kodagu",
+      "district_lgd_code": "541",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B24:D24"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "KOLAR",
+      "official_lgd_district_name": "Kolar",
+      "district_lgd_code": "542",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B25:D25"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "KOPPAL",
+      "official_lgd_district_name": "Koppal",
+      "district_lgd_code": "543",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B26:D26"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "MANDYA",
+      "official_lgd_district_name": "Mandya",
+      "district_lgd_code": "544",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B27:D27"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "RAICHUR",
+      "official_lgd_district_name": "Raichur",
+      "district_lgd_code": "546",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B29:D29"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "UDUPI",
+      "official_lgd_district_name": "Udupi",
+      "district_lgd_code": "549",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B32:D32"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "YADGIR",
+      "official_lgd_district_name": "Yadgir",
+      "district_lgd_code": "635",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B36:D36"
+    }
+  ],
+  "pending_alias_or_historical_name_review": [
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BAGALKOT"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BANGALORE RURAL"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BELGAUM"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BELLARY"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BIJAPUR"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHIKBALLAPUR"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHIKMAGALUR"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "DAKSHIN KANNAD"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "DAVANGERE"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "GULBARGA"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "SHIMOGA"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "TUMKUR"
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "UTTAR KANNAD"
+    }
+  ],
+  "existing_mysore_pilot": {
+    "crop_state": "Karnataka",
+    "crop_district": "MYSORE",
+    "classification": "existing_pilot_preserved_lgd_crosswalk_pending",
+    "lgd_state_code": null,
+    "lgd_district_code": null,
+    "official_lgd_district_name": null,
+    "district_version": null,
+    "source_record_id": null,
+    "candidate_current_name_in_report": "Mysuru",
+    "note": "Existing pilot entry left unchanged; the LGD report does not itself establish the historical Mysore-to-Mysuru alias.",
+    "coordinate_status": "existing pilot reference point only",
+    "weather_requests_enabled": false
+  },
+  "lgd_records_without_direct_crop_label": [
+    "Bagalkote",
+    "Ballari",
+    "Belagavi",
+    "Bengaluru Rural",
+    "Bengaluru South",
+    "Chikkaballapura",
+    "Chikkamagaluru",
+    "Dakshina Kannada",
+    "Davanagere",
+    "Kalaburagi",
+    "Mysuru",
+    "Shivamogga",
+    "Tumakuru",
+    "Uttara Kannada",
+    "Vijayanagara",
+    "Vijayapura"
+  ],
+  "suspicious_records": [],
+  "weather_registry_modified": false,
+  "records": [
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BAGALKOT",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BANGALORE RURAL",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BELGAUM",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BELLARY",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BENGALURU URBAN",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "525",
+      "official_lgd_district_name": "Bengaluru Urban",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B11:D11",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BIDAR",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "529",
+      "official_lgd_district_name": "Bidar",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B12:D12",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "BIJAPUR",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHAMARAJANAGAR",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "531",
+      "official_lgd_district_name": "Chamarajanagar",
+      "district_version": "3",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B13:D13",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHIKBALLAPUR",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHIKMAGALUR",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "CHITRADURGA",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "533",
+      "official_lgd_district_name": "Chitradurga",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B16:D16",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "DAKSHIN KANNAD",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "DAVANGERE",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "DHARWAD",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "536",
+      "official_lgd_district_name": "Dharwad",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B19:D19",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "GADAG",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "537",
+      "official_lgd_district_name": "Gadag",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B20:D20",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "GULBARGA",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "HASSAN",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "539",
+      "official_lgd_district_name": "Hassan",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B21:D21",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "HAVERI",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "540",
+      "official_lgd_district_name": "Haveri",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B22:D22",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "KODAGU",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "541",
+      "official_lgd_district_name": "Kodagu",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B24:D24",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "KOLAR",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "542",
+      "official_lgd_district_name": "Kolar",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B25:D25",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "KOPPAL",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "543",
+      "official_lgd_district_name": "Koppal",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B26:D26",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "MANDYA",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "544",
+      "official_lgd_district_name": "Mandya",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B27:D27",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "MYSORE",
+      "classification": "existing_pilot_preserved_lgd_crosswalk_pending",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "candidate_current_name_in_report": "Mysuru",
+      "note": "Existing pilot entry left unchanged; the LGD report does not itself establish the historical Mysore-to-Mysuru alias.",
+      "coordinate_status": "existing pilot reference point only",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "RAICHUR",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "546",
+      "official_lgd_district_name": "Raichur",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B29:D29",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "SHIMOGA",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "TUMKUR",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "UDUPI",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "549",
+      "official_lgd_district_name": "Udupi",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B32:D32",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "UTTAR KANNAD",
+      "classification": "pending_alias_or_historical_name_review",
+      "lgd_state_code": null,
+      "lgd_district_code": null,
+      "official_lgd_district_name": null,
+      "district_version": null,
+      "source_record_id": null,
+      "note": "No LGD identifier assigned; requires reviewed state-qualified historical-name evidence.",
+      "coordinate_status": "unresolved",
+      "weather_requests_enabled": false
+    },
+    {
+      "crop_state": "Karnataka",
+      "crop_district": "YADGIR",
+      "classification": "direct_normalized_identity_match",
+      "lgd_state_code": "29",
+      "lgd_district_code": "635",
+      "official_lgd_district_name": "Yadgir",
+      "district_version": "1",
+      "source_record_id": "KARNATAKA 2.xlsx:Report!B36:D36",
+      "coordinate_status": "unverified; no coordinate evidence supplied",
+      "weather_requests_enabled": false
+    }
+  ]
+}
