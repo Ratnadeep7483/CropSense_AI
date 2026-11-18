@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:full": "concurrently --kill-others --names backend,frontend \"cd ../Cropsense_ai_backend && .venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8001\" \"npm run dev -- --host 127.0.0.1 --port 5173 --strictPort\"",
     "build": "vite build",
     "preview": "vite preview",
     "test": "node --test"
@@ -13,6 +14,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
     "@vitejs/plugin-react": "^6.1.0",
+    "concurrently": "^10.0.6",
     "typescript": "~6.0.2",
     "vite": "^8.2.2"
   },

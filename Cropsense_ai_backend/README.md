@@ -71,13 +71,13 @@ Cropsense_ai_backend/
 
 ```bash
 cd Cropsense_ai_backend
-python -m venv venv
+python -m venv .venv
 
 # Windows
-venv\Scripts\activate
+.\.venv\Scripts\activate
 
 # macOS / Linux
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 ### 2. Install Dependencies
@@ -122,14 +122,18 @@ python scripts/check_models.py
 ### 5. Run the Backend
 
 ```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+# Windows
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8001
+
+# macOS / Linux
+.venv/bin/python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8001
 ```
 
 ## API Documentation
 
 Interactive Swagger documentation is available at:
 
-**http://127.0.0.1:8000/docs**
+**http://127.0.0.1:8001/docs**
 
 ## API Endpoints
 

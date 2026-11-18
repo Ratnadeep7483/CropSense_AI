@@ -182,7 +182,11 @@ export default function YieldPrediction() {
                   }
                 >
                   <option value="">
-                    {options ? `${t[FEATURE_LABELS[feature]]}...` : t.loading}
+                    {options
+                      ? `${t[FEATURE_LABELS[feature]]}...`
+                      : error
+                        ? t.yieldOptionsUnavailable
+                        : t.loading}
                   </option>
                   {categories.map((category) => (
                     <option value={category} key={category}>

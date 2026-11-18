@@ -1,37 +1,57 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { Loader2, RotateCcw } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
-import { mockDiseaseResult } from "../data/mockData";
+import { predictDisease, type DiseasePredictResponse } from "../lib/api/diseaseApi";
 import ImageUploader from "../components/disease/ImageUploader";
 import ImagePreview from "../components/disease/ImagePreview";
 import DiseaseResultComponent from "../components/disease/DiseaseResult";
 
-type PageState = "upload" | "preview" | "loading" | "result" | "error";
+type PageState = "upload" | "loading" | "result" | "error";
 
 export default function DiseaseDetection() {
   const { t } = useLanguage();
   const [state, setState] = useState<PageState>("upload");
   const [imageUrl, setImageUrl] = useState("");
+  const [prediction, setPrediction] = useState<DiseasePredictResponse | null>(null);
+  const [errorMessage, setErrorMessage] = useState("");
+  const requestId = useRef(0);
 
-  const handleImageSelect = useCallback((file: File) => {
+  useEffect(() => {
+    return () => {
+      if (imageUrl) URL.revokeObjectURL(imageUrl);
+    };
+  }, [imageUrl]);
+
+  const handleImageSelect = useCallback(async (file: File) => {
+    const activeRequestId = ++requestId.current;
     const url = URL.createObjectURL(file);
     setImageUrl(url);
-    setState("preview");
-
-    // Auto-start mock analysis after a short delay
-    setTimeout(() => {
-      setState("loading");
-      setTimeout(() => {
+    setPrediction(null);
+    setErrorMessage("");
+    setState("loading");
+    try {
+      const result = await predictDisease(file);
+      if (requestId.current === activeRequestId) {
+        setPrediction(result);
         setState("result");
-      }, 2000);
-    }, 500);
-  }, []);
+      }
+    } catch (error: unknown) {
+      if (requestId.current === activeRequestId) {
+        setErrorMessage(
+          error instanceof Error ? error.message : t.unableToProcess,
+        );
+        setState("error");
+      }
+    }
+  }, [t.unableToProcess]);
 
   const handleClear = useCallback(() => {
-    if (imageUrl) URL.revokeObjectURL(imageUrl);
+    requestId.current += 1;
     setImageUrl("");
+    setPrediction(null);
+    setErrorMessage("");
     setState("upload");
-  }, [imageUrl]);
+  }, []);
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
@@ -50,10 +70,8 @@ export default function DiseaseDetection() {
         <ImageUploader onImageSelect={handleImageSelect} />
       )}
 
-      {/* Preview State */}
-      {state === "preview" && imageUrl && (
-        <ImagePreview imageUrl={imageUrl} onClear={handleClear} />
-      )}
+      {(state === "loading" || state === "result" || state === "error") &&
+        imageUrl && <ImagePreview imageUrl={imageUrl} onClear={handleClear} />}
 
       {/* Loading State */}
       {state === "loading" && (
@@ -69,12 +87,12 @@ export default function DiseaseDetection() {
       )}
 
       {/* Result State */}
-      {state === "result" && (
+      {state === "result" && prediction && (
         <>
-          {imageUrl && (
-            <ImagePreview imageUrl={imageUrl} onClear={handleClear} />
-          )}
-          <DiseaseResultComponent result={mockDiseaseResult} />
+          <DiseaseResultComponent
+            predictedDisease={prediction.predicted_disease}
+            confidence={prediction.confidence}
+          />
           <button
             onClick={handleClear}
             className="inline-flex items-center gap-2 rounded-xl border border-surface-200 bg-white px-5 py-2.5 text-sm font-semibold text-surface-700 shadow-sm transition-all hover:bg-surface-50 hover:-translate-y-0.5"
@@ -91,6 +109,9 @@ export default function DiseaseDetection() {
           <p className="mb-4 text-lg font-semibold text-danger-700">
             {t.unableToProcess}
           </p>
+          {errorMessage && errorMessage !== t.unableToProcess && (
+            <p className="mb-4 text-sm text-danger-700">{errorMessage}</p>
+          )}
           <button
             onClick={handleClear}
             className="inline-flex items-center gap-2 rounded-xl bg-danger-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-danger-700"

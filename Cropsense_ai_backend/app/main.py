@@ -18,11 +18,21 @@ from urllib.parse import urlsplit
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routes import crop, fertilizer, soil, weather, yield_prediction
+from app.routes import (
+    crop,
+    disease,
+    fertilizer,
+    irrigation,
+    soil,
+    weather,
+    yield_prediction,
+)
 from app.services.crop_service import crop_service
+from app.services.disease_service import disease_service
 from app.services.fertilizer_service import fertilizer_service
 from app.services.soil_service import soil_service
 from app.services.yield_prediction_service import yield_prediction_service
+from app.services.irrigation_service import irrigation_service
 
 # ── Logging ──────────────────────────────────────────────────────
 logging.basicConfig(
@@ -38,9 +48,11 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     """Load ML models once when the application starts."""
     logger.info("Loading ML models …")
     crop_service.load_model()
+    disease_service.load_model()
     fertilizer_service.load_model()
     soil_service.load_model()
     yield_prediction_service.load_model()
+    irrigation_service.load_model()
     logger.info("Model loading complete.")
     yield
     logger.info("Shutting down CropSense AI backend.")
@@ -103,10 +115,12 @@ app.add_middleware(
 
 # ── Routes ───────────────────────────────────────────────────────
 app.include_router(crop.router)
+app.include_router(disease.router)
 app.include_router(fertilizer.router)
 app.include_router(soil.router)
 app.include_router(weather.router)
 app.include_router(yield_prediction.router)
+app.include_router(irrigation.router)
 
 
 # ── Health / Status ──────────────────────────────────────────────
@@ -135,6 +149,10 @@ async def model_status() -> dict:
             "loaded": crop_service.is_loaded,
             "error": crop_service.load_error,
         },
+        "disease_model": {
+            "loaded": disease_service.is_loaded,
+            "error": disease_service.load_error,
+        },
         "fertilizer_model": {
             "loaded": fertilizer_service.is_loaded,
             "error": fertilizer_service.load_error,
@@ -156,5 +174,9 @@ async def model_status() -> dict:
                 if yield_prediction_service.is_loaded
                 else "Model is not available. Check server logs."
             ),
+        },
+        "irrigation_model": {
+            "loaded": irrigation_service.is_loaded,
+            "error": irrigation_service.load_error,
         },
     }

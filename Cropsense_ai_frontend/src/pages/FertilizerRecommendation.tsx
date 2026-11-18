@@ -6,6 +6,7 @@ import {
   recommendFertilizer,
   type FertilizerRecommendRequest,
 } from "../lib/api/fertilizerApi";
+import { translateFertilizerName } from "../lib/fertilizerNameTranslation.mjs";
 
 type FertilizerForm = Record<keyof FertilizerRecommendRequest, string>;
 
@@ -50,7 +51,7 @@ const FIELD_LABELS: Record<
 };
 
 export default function FertilizerRecommendation() {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
   const [form, setForm] = useState(EMPTY_FORM);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -80,7 +81,7 @@ export default function FertilizerRecommendation() {
       setError(
         requestError instanceof Error
           ? requestError.message
-          : t.fertilizerRequestFailed,
+          : null,
       );
     } finally {
       setLoading(false);
@@ -118,7 +119,7 @@ export default function FertilizerRecommendation() {
             {t.fertilizerResultLabel}
           </p>
           <p className="mt-1 text-3xl font-bold text-primary-700">
-            {recommendation}
+            {translateFertilizerName(recommendation, language)}
           </p>
         </div>
         <button
@@ -146,7 +147,10 @@ export default function FertilizerRecommendation() {
           role="alert"
           className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700"
         >
-          {error}
+          <p>{t.fertilizerRequestFailed}</p>
+          {error !== t.fertilizerRequestFailed && (
+            <p className="mt-1">{error}</p>
+          )}
         </div>
       )}
 

@@ -91,7 +91,9 @@ export const en = {
   useCamera: "Use Camera",
   analyzing: "Analyzing image...",
   disease: "Disease",
+  predictedDisease: "Predicted Disease",
   confidence: "Confidence",
+  predictionConfidence: "Prediction Confidence (%)",
   severity: "Severity",
   treatmentRecommendation: "Treatment Recommendation",
   prevention: "Prevention",
@@ -300,6 +302,7 @@ export const en = {
   yieldState: "State",
   yieldDistrict: "District",
   yieldSeason: "Season",
+  yieldOptionsUnavailable: "Options unavailable",
   yieldPerArea: "Predicted yield per area",
   fertilizerTitle: "Fertilizer Recommendation",
   fertilizerSubtitle:

@@ -93,7 +93,9 @@ export const hi: Translations = {
   useCamera: "कैमरा उपयोग करें",
   analyzing: "तस्वीर का विश्लेषण हो रहा है...",
   disease: "रोग",
+  predictedDisease: "पहचाना गया रोग",
   confidence: "विश्वास",
+  predictionConfidence: "पूर्वानुमान की विश्वसनीयता (%)",
   severity: "गंभीरता",
   treatmentRecommendation: "उपचार सिफारिश",
   prevention: "रोकथाम",
@@ -302,6 +304,7 @@ export const hi: Translations = {
   yieldState: "राज्य",
   yieldDistrict: "जिला",
   yieldSeason: "मौसम",
+  yieldOptionsUnavailable: "विकल्प उपलब्ध नहीं",
   yieldPerArea: "अनुमानित प्रति क्षेत्रफल उपज",
   fertilizerTitle: "उर्वरक अनुशंसा",
   fertilizerSubtitle:
